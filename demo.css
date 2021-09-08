@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  font-family: "opensans";
+  color: white;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+
+  background-image: url("./res/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  //background-image: url("./res/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+#canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  text-align: center;
+  transform-style: preserve-3d;
+  perspective: 100px;
+}
+
+#header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+  background-color: rgba(33, 33, 33, .5);
+  transition: background-color 0.5s, height 0.5s;
+  border-radius: 0 0 8px 8px;
+}
+
+#header:hover {
+  background-color: rgba(33, 33, 33, 1);
+  height: 12%;
+}
+
+#header-text {
+  margin: 2%;
+}
+
+#footer {
+  display: flex;
+  font-size: 1em;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+  transition: background-color 0.5s, font-size 0.5s;
+  background-color: rgba(33, 33, 33, .5);
+  border-radius: 8px 8px 0 0;
+}
+
+#footer:hover {
+  background-color: rgba(33, 33, 33, 1);
+  font-size: 1.05em;
+}
+
+#footer-text {
+  margin: 2%;
+}
+
+#logo {
+  height: 100%;
+  max-height: 100%;
+  margin: 2%;
+}
+
+mark {
+  background-color: rgba(33, 33, 33, .33);
+  transition: background-color 0.5s;
+}
+
+mark:hover {
+  background-color: rgba(33, 33, 33, 1);
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+@font-face {
+  font-family: opensans;
+  src: url("./fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: opensans;
+  font-weight: bold;
+  src: url("./fonts/OpenSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: opensans;
+  font-style: italic;
+  src: url("./fonts/OpenSans-Italic.ttf");
+}
+
+@font-face {
+  font-family: opensans;
+  font-weight: bold;
+  font-style: italic;
+  src: url("./fonts/OpenSans-BoldItalic.ttf");
+}
