@@ -38,13 +38,86 @@ body {
   z-index: -2;
 }
 
+#img-cont {
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+
+#img-cont img {
+  width: 100%;
+  height: 100%;
+}
+
 #content {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 80%;
+  height: 75%;
   text-align: center;
+}
+
+.slides {
+  position: absolute;
+  visibility: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: visibility .5s, opacity .5s;
+  height: 100%;
+}
+
+.slide-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  //border-radius: 8px;
+  padding: 8px;
+  //border: 1px solid rgba(33, 33, 33, .33);
+  width: 30%;
+  margin: 8px;
+  height: 100%;
+  max-height: 100%;
+}
+
+.slide-img img {
+  border-radius: 8px;
+  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+}
+
+.slide-txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-item: flex-start;
+  margin: 8px;
+  width: 65%;
+  text-align: justify;
+  max-height: 100%;
+}
+
+.slide-ctl {
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 4%;
+}
+
+.slide-ctl img {
+  margin: 0px 8px;
+  max-height: 100%
+  max-width: 100%;
+  object-fit: cover;
+  height: 100%;
 }
 
 #header {
@@ -69,7 +142,7 @@ body {
 
 #footer {
   display: flex;
-  font-size: 1em;
+  font-size: .95em;
   justify-content: flex-start;
   align-items: center;
   width: 100%;
@@ -81,7 +154,7 @@ body {
 
 #footer:hover {
   background-color: rgba(33, 33, 33, 1);
-  font-size: 1.05em;
+  font-size: 1em;
 }
 
 #footer-text {
@@ -119,6 +192,26 @@ mark:hover {
 @media (min-width: 992px) {
   .container {
     width: 970px;
+  }
+}
+
+@media (max-width: 992px) {
+  .slides {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 80%;
+    width: 100%;
+  }
+
+  .slide-img {
+    width: 80%;
+    height: 50%;
+  }
+
+  .slide-txt {
+    width: 80%;
+    height: 50%;
+    text-align: center;
   }
 }
 

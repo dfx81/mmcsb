@@ -6,14 +6,51 @@
     <script src="demo.js" defer></script>
     <link href="demo.css" rel="stylesheet"/>
   </head>
-  <body>
+  <body id="body">
+    <div id="img-cont">
+      <img id="overlay" src="./res/overlay.png"/>
+    </div>
     <canvas id="canvas"></canvas>
     <div id="wrapper">
       <div id="header"><img id="logo" src="./res/logo.png"></img><b id="header-text">MMCSB</b></div>
       <div class="container" id="content">
-        <h1><mark>Murshida Medical Care Sdn. Bhd.</mark></h1>
-        <h3><mark>Welcome You</mark></h3>
-        <h5><mark><i>“Always There For You”</i></mark></h5>
+        <div class="slides">
+          <div class="slide-img">
+            <img src="./res/logo.png"/>
+          </div>
+          <div class="slide-txt">
+            <h1><mark>Murshida Medical Care Sdn. Bhd.</mark></h1>
+            <h3><mark>Welcome You</mark></h3>
+            <quote><mark><i>“Always There For You”</i></mark></quote>
+          </div>
+        </div>
+        <div class="slides">
+          <div class="slide-img">
+            <img src="./res/bg2.jpeg"/>
+          </div>
+          <div class="slide-txt">
+            <h3><mark>History</mark></h3>
+            <p><mark>Since 2019, Murshida Medical Care has been proud to serve the nation. Witch our top-of-the-line services and technologies, we ensure that
+              all patients receive the exceptional care they deserve. We're dedicated to not only making you feel better, but helping you stay healthy in the
+              long run.</mark></p>
+          </div>
+        </div>
+        <div class="slides">
+          <div class="slide-txt">
+            <h3><mark>Mission</mark></h3>
+            <p><mark>Our mission is to provide comprehensive and compassionate healthcare service. We honour individuality, empower people through open and
+              honest communication and strive to earn the loyalty of every person we serve. A community in which all people achieve their full potential
+              for health and well-being across the lifespan. We work to be trusted by patients, a valued partner in community, and creators of positive
+              change.</mark></p>
+          </div>
+        </div>
+      </div>
+      <div class="slide-ctl">
+        <img onclick="changeSlide(-1)" src="./res/prev.png"></img>
+        <img class="slide-pg" src="./res/empty.png"></img>
+        <img class="slide-pg" src="./res/empty.png"></img>
+        <img class="slide-pg" src="./res/empty.png"></img>
+        <img onclick="changeSlide(1)" src="./res/next.png"></img>
       </div>
       <div id="footer"><b id="footer-text">© 2021  Murshida Medical Care</b></div>
     </div>
