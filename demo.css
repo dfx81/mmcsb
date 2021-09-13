@@ -205,12 +205,12 @@ mark:hover {
 
   .slide-img {
     width: 80%;
-    height: 50%;
+    height: 40%;
   }
 
   .slide-txt {
     width: 80%;
-    height: 50%;
+    height: 60%;
     text-align: center;
   }
 }
