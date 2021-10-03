@@ -29,13 +29,13 @@ title: Projects
 
 {% capture slides %}
   {% include slides.html
-    image="/res/bg2.jpeg"
+    image="/mmcsb/res/bg2.jpeg"
     alt=""
     active="active"
     caption=""
   %}
   {% include slides.html
-    image="/res/doctor.jpeg"
+    image="/mmcsb/res/doctor.jpeg"
     alt=""
     active=""
     caption=""

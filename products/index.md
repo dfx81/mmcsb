@@ -5,19 +5,19 @@ title: Products
 
 {% capture slides %}
   {% include slides.html
-    image="/res/newgene1.jpeg"
+    image="/mmcsb/res/newgene1.jpeg"
     alt=""
     active="active"
     caption=""
   %}
   {% include slides.html
-    image="/res/newgene2.jpeg"
+    image="/mmcsb/res/newgene2.jpeg"
     alt=""
     active=""
     caption=""
   %}
   {% include slides.html
-    image="/res/newgene3.jpeg"
+    image="/mmcsb/res/newgene3.jpeg"
     alt=""
     caption=""
   %}
@@ -40,7 +40,7 @@ title: Products
         <div class="center">
           <div>
             <h2 class="heading text-center mb-3">Use Instruction</h2>
-            <video class="fade-on-view" controls src="/res/product-vid.mp4"></video>
+            <video class="fade-on-view" controls src="/mmcsb/res/product-vid.mp4"></video>
           </div>
         </div>
       </div>
@@ -50,23 +50,23 @@ title: Products
   <h2 class="heading text-center mt-3">Additional Info</h2>
   <div class="fade-on-view row h-100 my-3">
     <div class="col-md-3 my-3">
-      <a href="/res/info1.jpeg">
-        <img src="/res/info1.jpeg" class="img-fluid">
+      <a href="/mmcsb/res/info1.jpeg">
+        <img src="/mmcsb/res/info1.jpeg" class="img-fluid">
       </a>
     </div>
     <div class="col-md-3 my-3">
-      <a href="/res/info2.jpeg">
-        <img src="/res/info2.jpeg" class="img-fluid">
+      <a href="/mmcsb/res/info2.jpeg">
+        <img src="/mmcsb/res/info2.jpeg" class="img-fluid">
       </a>
     </div>
     <div class="col-md-3 my-3">
-      <a href="/res/info3.jpeg">
-        <img src="/res/info3.jpeg" class="img-fluid">
+      <a href="/mmcsb/res/info3.jpeg">
+        <img src="/mmcsb/res/info3.jpeg" class="img-fluid">
       </a>
     </div>
     <div class="col-md-3 my-3">
-      <a href="/res/info4.jpeg">
-        <img src="/res/info4.jpeg" class="img-fluid">
+      <a href="/mmcsb/res/info4.jpeg">
+        <img src="/mmcsb/res/info4.jpeg" class="img-fluid">
       </a>
     </div>
   </div>
@@ -74,17 +74,17 @@ title: Products
   <h2 class="heading text-center mt-3">Approval Documents</h2>
   <ul class="fade-on-view list-group my-3">
     <li class="list-group-item">
-      <a href="/res/kkmapproval1.pdf">
+      <a href="/mmcsb/res/kkmapproval1.pdf">
         KKM Approval Document
       </a>
     </li>
     <li class="list-group-item">
-      <a href="/res/kkmapproval2.pdf">
+      <a href="/mmcsb/res/kkmapproval2.pdf">
         KKM Approval Letter
       </a>
     </li>
     <li class="list-group-item">
-      <a href="/res/newgeneletter.pdf">
+      <a href="/mmcsb/res/newgeneletter.pdf">
         Letter from NEWGENE
       </a>
     </li>

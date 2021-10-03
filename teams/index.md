@@ -60,30 +60,30 @@ title: Our Team
       <h2 class="heading text-center mt-5">Management Team</h2>
       <div class="row hoz-center">
         {% include profile.html
-          image="/res/chairman.jpeg"
+          image="/mmcsb/res/chairman.jpeg"
           content=management1
         %}
         {% include profile.html
-          image="/res/managing_director.jpeg"
+          image="/mmcsb/res/managing_director.jpeg"
           content=management2
         %}
       </div>
       <h2 class="heading text-center mt-5">Staff</h2>
       <div class="row">
         {% include profile_mini.html
-          image="/res/biz_dev.jpeg"
+          image="/mmcsb/res/biz_dev.jpeg"
           content=staff1
         %}
         {% include profile_mini.html
-          image="/res/product_dev.jpeg"
+          image="/mmcsb/res/product_dev.jpeg"
           content=staff2
         %}
         {% include profile_mini.html
-          image="/res/marketing.jpeg"
+          image="/mmcsb/res/marketing.jpeg"
           content=staff3
         %}
         {% include profile_mini.html
-          image="/res/ops.jpeg"
+          image="/mmcsb/res/ops.jpeg"
           content=staff4
         %}
       </div>

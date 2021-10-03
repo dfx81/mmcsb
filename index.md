@@ -4,11 +4,11 @@ title: MMCSB
 ---
 
 {% capture image1 %}
-<img src="/res/doctor.jpeg" class="img-fluid fade-on-view my-5">
+<img src="/mmcsb/res/doctor.jpeg" class="img-fluid fade-on-view my-5">
 {% endcapture %}
 
 {% capture image2 %}
-<img src="/res/about.jpg" class="img-fluid fade-on-view my-5">
+<img src="/mmcsb/res/about.jpg" class="img-fluid fade-on-view my-5">
 {% endcapture %}
 
 {% capture section1 %}
@@ -33,7 +33,7 @@ run.</p>
   ethics, and the highest level of performance.
   We believe that our first responsibility is to the patients, doctors and
 nurses.</p>
-<a class="btn btn-secondary w-100" href="/teams">Our Team</a>
+<a class="btn btn-secondary w-100" href="/mmcsb/teams">Our Team</a>
 {% endcapture %}
 
 {% capture section3 %}
@@ -53,7 +53,7 @@ nurses.</p>
 <div class="bg round position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center">
   <div class="fade-on-view col-md-9 p-lg-5 mx-auto my-5">
     <p class="display-5">Let's build something beautiful together!</p>
-    <a class="btn btn-secondary btn-lg" href="/contacts">Contact Us</a>
+    <a class="btn btn-secondary btn-lg" href="/mmcsb/contacts">Contact Us</a>
   </div>
 </div>
 {% endcapture %}

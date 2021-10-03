@@ -201,7 +201,7 @@ canvas {
 .bg {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75) 5%,
     rgba(0, 0, 0, .25),
-    rgba(0, 0, 0, .75) 95%), url("/res/bg.jpg");
+    rgba(0, 0, 0, .75) 95%), url("/mmcsb/res/bg.jpg");
   background-size: cover;
   color: #eee;
 }
@@ -228,26 +228,26 @@ canvas {
 
 @font-face {
   font-family: opensans;
-  src: url("../fonts/OpenSans-Regular.ttf");
+  src: url("/mmcsb/fonts/OpenSans-Regular.ttf");
 }
 
 @font-face {
   font-family: opensans;
   font-weight: bold;
-  src: url("../fonts/OpenSans-Bold.ttf");
+  src: url("/mmcsb/fonts/OpenSans-Bold.ttf");
 }
 
 @font-face {
   font-family: opensans;
   font-style: italic;
-  src: url("../fonts/OpenSans-Italic.ttf");
+  src: url("/mmcsb/fonts/OpenSans-Italic.ttf");
 }
 
 @font-face {
   font-family: opensans;
   font-weight: bold;
   font-style: italic;
-  src: url("../fonts/OpenSans-BoldItalic.ttf");
+  src: url("/mmcsb/fonts/OpenSans-BoldItalic.ttf");
 }
 
 .flex-equal > * {
