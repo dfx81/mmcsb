@@ -60,10 +60,10 @@ nurses.</p>
 
 <main class="content">
   {% include header.html
-    logo="/res/logo-full.png"
+    logo="/mmcsb/res/logo-full.png"
     title="MURSHIDA MEDICAL CARE SDN. BHD."
     subtitle="Always There For You"
-    link="/services"
+    link="/mmcsb/services"
     button="View Services"
   %}
 
