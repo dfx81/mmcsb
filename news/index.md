@@ -3,7 +3,7 @@ layout: page
 title: News
 ---
 
-<main class="content container w-50 mx-auto justify">
+<main id="post" class="post content container mx-auto justify">
   <h1 class="heading">LATEST NEWS FROM MMCSB</h1>
   <hr/>
   <ul class="list-group">
