@@ -1,0 +1,14 @@
+---
+layout: page
+---
+
+<div id="post" class="container hoz-center">
+  <div>
+    <h1 class="fw-bold">{{ page.title }}</h1>
+    <p class="text-muted">{{ page.date | date_to_string }}</p>
+    <hr/>
+    <div class="post">
+      {{ content }}
+    </div>
+  </div>
+</div>

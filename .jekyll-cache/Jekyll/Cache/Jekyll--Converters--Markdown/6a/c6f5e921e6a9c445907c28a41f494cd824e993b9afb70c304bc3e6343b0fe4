@@ -1,0 +1,142 @@
+I"ô
+<main class="fade-on-view content container">
+  <section class="ver-center justify vh-100">
+  <div class="container row">
+    <div class="fade-on-view col-md-6 my-2">
+      
+  <div id="carousel" class="carousel w-100 carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    
+  <div class="carousel-item active">
+  <img src="/mmcsb/res/ecg.png" class="d-block" alt="ECG" />
+  <div class="carousel-caption">
+    <b>ECG</b>
+  </div>
+</div>
+  <div class="carousel-item ">
+  <img src="/mmcsb/res/ultrasound.jpg" class="d-block" alt="Ultrasound" />
+  <div class="carousel-caption">
+    <b>Ultrasound</b>
+  </div>
+</div>
+  <div class="carousel-item ">
+  <img src="/mmcsb/res/dressing.jpg" class="d-block" alt="Dressing" />
+  <div class="carousel-caption">
+    <b>Dressing</b>
+  </div>
+</div>
+  <div class="carousel-item ">
+  <img src="/mmcsb/res/iv.jpg" class="d-block" alt="IV Drip" />
+  <div class="carousel-caption">
+    <b>IV Drip</b>
+  </div>
+</div>
+  <div class="carousel-item ">
+  <img src="/mmcsb/res/suction.jpg" class="d-block" alt="Suction" />
+  <div class="carousel-caption">
+    <b>Suction</b>
+  </div>
+</div>
+  <div class="carousel-item ">
+  <img src="/mmcsb/res/irrigation.jpg" class="d-block" alt="Irrigation" />
+  <div class="carousel-caption">
+    <b>Irrigation</b>
+  </div>
+</div>
+  <div class="carousel-item ">
+  <img src="/mmcsb/res/nebulizer.jpg" class="d-block" alt="Nebulizer" />
+  <div class="carousel-caption">
+    <b>Nebulizer</b>
+  </div>
+</div>
+  <div class="carousel-item ">
+  <img src="/mmcsb/res/circumcision.jpg" class="d-block" alt="Circumcision" />
+  <div class="carousel-caption">
+    <b>Circumcision</b>
+  </div>
+</div>
+  <div class="carousel-item ">
+  <img src="/mmcsb/res/skintreat.jpg" class="d-block" alt="Skin Treatment" />
+  <div class="carousel-caption">
+    <b>Skin Treatment</b>
+  </div>
+</div>
+  <div class="carousel-item ">
+  <img src="/mmcsb/res/physio.jpg" class="d-block" alt="Physiotheraphy Service" />
+  <div class="carousel-caption">
+    <b>Physiotheraphy Service</b>
+  </div>
+</div>
+  <div class="carousel-item ">
+  <img src="/mmcsb/res/knee.jpg" class="d-block" alt="Knee Treatment" />
+  <div class="carousel-caption">
+    <b>Knee Treatment</b>
+  </div>
+</div>
+  <div class="carousel-item ">
+  <img src="/mmcsb/res/injection.png" class="d-block" alt="Vaccine Injection" />
+  <div class="carousel-caption">
+    <b>Vaccine Injection</b>
+  </div>
+</div>
+  <div class="carousel-item ">
+  <img src="/mmcsb/res/typhoid.jpg" class="d-block" alt="Typhoid Injection" />
+  <div class="carousel-caption">
+    <b>Typhoid Injection</b>
+  </div>
+</div>
+  <div class="carousel-item ">
+  <img src="/mmcsb/res/bloodtest.jpg" class="d-block" alt="Blood Test" />
+  <div class="carousel-caption">
+    <b>Blood Test</b>
+  </div>
+</div>
+  <div class="carousel-item ">
+  <img src="/mmcsb/res/upt.jpg" class="d-block" alt="Urine Test / UPT" />
+  <div class="carousel-caption">
+    <b>Urine Test / UPT</b>
+  </div>
+</div>
+  <div class="carousel-item ">
+  <img src="/mmcsb/res/familyplan.jpg" class="d-block" alt="Family Planning" />
+  <div class="carousel-caption">
+    <b>Family Planning</b>
+  </div>
+</div>
+  <div class="carousel-item ">
+  <img src="/mmcsb/res/homevisit.jpg" class="d-block" alt="Home Visit" />
+  <div class="carousel-caption">
+    <b>Home Visit</b>
+  </div>
+</div>
+
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+    </div>
+    <div class="fade-on-view col-md-6 my-2">
+      
+<section class="fade-on-view justify center">
+  <div>
+    <h1 class="heading">SERVICES</h1>
+    <p>At Murshida Medical Care, weâ€™re dedicated to providing high-quality,
+      personalized medical care with the most cutting edge technologies available.
+      By continuously evaluating and upgrading our services, we ensure that all
+    patients receive the best treatment for their needs.</p>
+  </div>
+</section>
+
+    </div>
+  </div>
+</section>
+
+</main>
+:ET

@@ -1,4 +1,8 @@
-* {
+---
+bg: res/bg.jpg
+---
+
+p {
   font-family: opensans;
   font-size: 16px;
   line-height: 1.6;
@@ -51,6 +55,42 @@ video {
   border: none;
 }
 
+.navbar-brand {
+  font-weight: bold;
+}
+
+.dark {
+  background-color: black;
+}
+
+.btn-light {
+  border-radius: 0px;
+  border: 2px solid #eee;
+  color: #eee;
+  background-color: transparent;
+  transition: background-color .5s, color .5s;
+}
+
+.btn-light:hover {
+  background-color: #eee;
+  border-color: #eee;
+  color: black;
+}
+
+.btn-dark {
+  border-radius: 0px;
+  border: 2px solid black;
+  color: black;
+  background-color: transparent;
+  transition: background-color .5s, color .5s;
+}
+
+.btn-dark:hover {
+  background-color: black;
+  border-color: black;
+  color: #eee;
+}
+
 .snap-y {
   overflow-y: auto;
   scroll-snap-type: y mandatory;
@@ -59,6 +99,10 @@ video {
 .snap-x {
   overflow-x: auto;
   scroll-snap-type: x mandatory;
+}
+
+.mono {
+  font-family: monospace;
 }
 
 .carousel-item > img {
@@ -93,9 +137,9 @@ img.img-fluid {
 }
 
 .carousel-caption > b {
+  display: inline;
   background-color: #3335;
-  border-radius: 8px;
-  padding: 4px;
+  border-radius: 4px;
 }
 
 .carousel-caption > * {
@@ -122,6 +166,13 @@ img.img-fluid {
   align-items: center;
 }
 
+.ver-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .heading {
   font-size: 2em;
   font-weight: bold;
@@ -137,7 +188,7 @@ img.img-fluid {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 82vh;
+  height: 83vh;
   //margin: auto;
 }
 
@@ -156,6 +207,19 @@ img.img-fluid {
 .fade-on-view.is-visible {
   opacity: 1;
   transform: translateY(0px);
+}
+
+.post {
+  text-align: justify;
+}
+
+#post {
+  width: 50%;
+}
+
+.post > p > img {
+  max-width: 100%;
+  height: auto;
 }
 
 .full {
@@ -186,6 +250,8 @@ canvas {
   height: 100vh;
   pointer-events: none;
   outline: none;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
 }
 
 .footer-bar, .socials {
@@ -201,7 +267,7 @@ canvas {
 .bg {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75) 5%,
     rgba(0, 0, 0, .25),
-    rgba(0, 0, 0, .75) 95%), url("/mmcsb/res/bg.jpg");
+    rgba(0, 0, 0, .75) 95%), url("{{ page.bg | relative_url }}");
   background-size: cover;
   color: #eee;
 }
@@ -210,9 +276,19 @@ canvas {
   border-radius: 8px;
 }
 
+#chart {
+  width: 100%;
+}
+
 @media (orientation: portrait) {
-  section * {
+  #chart {
+    width: auto;
+    height: 100%;
+  }
+
+  p {
     font-size: 14px;
+    line-height: 1.4;
   }
 
   section {
@@ -224,35 +300,50 @@ canvas {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
   }
+
+  .hero-logo {
+    width: 120px;
+    height: 120px;
+  }
+
+  .post > p > img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #post {
+    width: 100%;
+  }
 }
 
 @font-face {
   font-family: opensans;
-  src: url("/mmcsb/fonts/OpenSans-Regular.ttf");
+  src: url("{{ 'fonts/OpenSans-Regular.ttf' | relative_url }}");
 }
 
 @font-face {
   font-family: opensans;
   font-weight: bold;
-  src: url("/mmcsb/fonts/OpenSans-Bold.ttf");
+  src: url("{{ 'fonts/OpenSans-Bold.ttf' | relative_url }}");
 }
 
 @font-face {
   font-family: opensans;
   font-style: italic;
-  src: url("/mmcsb/fonts/OpenSans-Italic.ttf");
+  src: url("{{ 'fonts/OpenSans-Italic.ttf' | relative_url }}");
 }
 
 @font-face {
   font-family: opensans;
   font-weight: bold;
   font-style: italic;
-  src: url("/mmcsb/fonts/OpenSans-BoldItalic.ttf");
+  src: url("{{ 'fonts/OpenSans-BoldItalic.ttf' | relative_url }}");
 }
 
 .flex-equal > * {
   flex: 1;
 }
+
 @media (min-width: 768px) {
   .flex-md-equal > * {
     flex: 1;

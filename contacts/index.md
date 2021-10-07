@@ -5,14 +5,14 @@ title: Contact Us
 
 {% capture section1 %}
 <h1 class="heading mb-3">CONTACT US</h1>
-<h2>Opening Hours:</h2>
+<h3>Opening Hours:</h3>
 <p>Sat-Thu: 8:00AM-10:00PM<br/>Fri: Closed</p>
-<h2>Our Location:</h2>
-<p>No. 222,<br/>Tingkat Bawah,<br/>Lorong 8 Taman Tanjung Puteri,<br/>09300 Kuala Ketil.</p>
+<h3>Our Location:</h3>
+<p>No. 222,<br/>Lorong 8 Taman Tanjung Puteri,<br/>09300 Kuala Ketil.</p>
 <p>For general inquiries, feel free to contact us.<br/>We’d love to hear from you!</p>
 <a href="tel:04-4160428">Tel: 04-4160428</a><br/>
 <a href="https://wa.link/27sifm">WhatsApp: 011-25454521</a><br/>
-<a href="mailto:example@gmail.com">Email: example@gmail.com</a>
+<a href="mailto:mmcsb@mmcsb.net">Email: mmcsb@mmcsb.net</a>
 {% endcapture %}
 
 {% capture section2 %}

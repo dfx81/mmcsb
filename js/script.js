@@ -20,8 +20,8 @@ let point = {
 function cursor(evt) {
   clear();
 
-  point.x = (evt.type == "mousemove") ? evt.pageX : evt.touches[0].pageX;
-  point.y = (evt.type == "mousemove") ? evt.pageY : evt.touches[0].pageY;
+  point.x = (evt.type == "mousemove") ? evt.x : evt.touches[0].x;
+  point.y = (evt.type == "mousemove") ? evt.y : evt.touches[0].y;
 }
 
 function cursorReset() {

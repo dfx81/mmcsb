@@ -29,13 +29,13 @@ title: Projects
 
 {% capture slides %}
   {% include slides.html
-    image="/mmcsb/res/bg2.jpeg"
+    image="res/bg2.jpeg"
     alt=""
     active="active"
     caption=""
   %}
   {% include slides.html
-    image="/mmcsb/res/doctor.jpeg"
+    image="res/doctor.jpeg"
     alt=""
     active=""
     caption=""
@@ -49,7 +49,7 @@ title: Projects
 {% endcapture %}
 
 <main class="content container fade-on-view">
-  {% include splitpane.html
+  {% include fullpane.html
     content_1=section1
     content_2=section2
   %}

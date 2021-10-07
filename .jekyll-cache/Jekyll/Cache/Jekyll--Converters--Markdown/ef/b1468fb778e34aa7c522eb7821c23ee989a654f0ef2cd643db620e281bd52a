@@ -1,0 +1,56 @@
+I"ü
+<main class="content container fade-on-view">
+  <section class="ver-center justify vh-100">
+  <div class="container row h-100">
+    <div class="fade-on-view col-md-6 my-2">
+      
+<h1 class="heading text-center mb-3">PROJECTS</h1>
+<ul class="list-group round">
+  <li class="list-group-item">Private Clinic
+    <ol class="list-group">
+      <li class="list-group-item">U.n.i Klinik Kuala Ketil</li>
+      <li class="list-group-item">U.n.i Klinik Kupang</li>
+    </ol>
+  </li>
+  <li class="list-group-item">Certified Centre for Covid-19 Test</li>
+  <li class="list-group-item">Training Centre
+    <ol class="list-group">
+      <li class="list-group-item">Food Handling Course under KKM/JKN</li>
+      <li class="list-group-item">Typhoid Injection Provider</li>
+    </ol>
+  </li>
+  <li class="list-group-item">Manufacturer
+    <ol class="list-group">
+      <li class="list-group-item">Import and market healthcare &amp; medical consumables for hospitals and clinics.</li>
+    </ol>
+  </li>
+</ul>
+
+    </div>
+    <div class="fade-on-view col-md-6 my-2">
+      
+  <div class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    
+  <div class="carousel-item active">
+  <img src="/mmcsb/res/bg2.jpeg" class="d-block" alt="" />
+  <div class="carousel-caption">
+    <b></b>
+  </div>
+</div>
+  <div class="carousel-item ">
+  <img src="/mmcsb/res/doctor.jpeg" class="d-block" alt="" />
+  <div class="carousel-caption">
+    <b></b>
+  </div>
+</div>
+
+  </div>
+</div>
+
+    </div>
+  </div>
+</section>
+
+</main>
+:ET

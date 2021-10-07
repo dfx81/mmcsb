@@ -1,0 +1,8 @@
+I"ô<main class="content container ver-center h-100">
+  <section class="ver-center" style="overflow: hidden;">
+    <div class="container snap-x vw-75 vh-75 overflow-auto">
+      <img class="" src="/res/chart.png" />
+    </div>
+  </section>
+</main>
+:ET
