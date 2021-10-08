@@ -2,7 +2,7 @@
 layout: post
 title: Placeholder
 date: 2021-10-08
-permalink: /news/:year/:month/:date/:title
+permalink: /news/:year/:month/:day/:title
 ---
 
 # Placeholder
