@@ -8,7 +8,7 @@ title: News
   <hr/>
   <ul class="list-group">
     {% for post in site.posts %}
-      <li class="list-group-item"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+      <li class="list-group-item"><a href="{{ post.url | relative_url }}" title="{{ post.title }}">{{ post.title }}</a>
         <span class="ml-3 text-muted">({{ post.date | date_to_string }})</span></li>
     {% endfor %}
   </ul>
