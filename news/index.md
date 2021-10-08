@@ -4,7 +4,7 @@ title: News
 ---
 
 <main id="post" class="post content container mx-auto justify">
-  <h1 class="heading">LATEST NEWS FROM MMCSB</h1>
+  <h1 class="heading text-center">LATEST NEWS FROM MMCSB</h1>
   <hr/>
   <ul class="list-group">
     {% for post in site.posts %}
