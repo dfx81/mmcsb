@@ -13,8 +13,6 @@ jakjajda
 2. jnhkhkda
 3. khhka
 
----
-
 - kljad
 - kankdha
 - kjkk
