@@ -1,2 +1,3 @@
 # mmcsb
-Prototyping
+
+Wordpress theme for MMCSB
