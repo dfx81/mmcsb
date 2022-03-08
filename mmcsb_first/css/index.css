@@ -1,0 +1,35 @@
+/*
+  Style specific for a single normal page
+  */
+
+  html, body {
+    min-height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+  }
+
+  .header {
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+  }
+
+  .main {
+    display: flex;
+    flex-flow: column;
+  }
+
+  @media (min-width: 992px) {
+    .main {
+      flex-flow: row;
+    }
+
+    .sidebar {
+      flex-grow: 1;
+      justify-content: flex-start;
+      align-items: stretch;
+      margin-top: 0px;
+      margin-left: 16px;
+    }
+  }

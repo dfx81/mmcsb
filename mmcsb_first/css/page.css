@@ -1,0 +1,30 @@
+/*
+  Style specific for a single normal page
+  */
+
+  html, body {
+    min-height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+  }
+
+  .header {
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+  }
+
+  .main {
+    align-self: center;
+  }
+
+  @media (min-width: 992px) {
+    .main {
+      text-align: start;
+    }
+
+    .content {
+      max-width: 80ch;
+    }
+  }

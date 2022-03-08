@@ -1,0 +1,53 @@
+/*
+  Style specific for a single normal page
+  */
+
+  html, body {
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+  }
+
+  .main {
+    height: 70%;
+    align-self: center;
+    overflow-y: auto;
+  }
+
+  @media (min-width: 992px) {
+    html, body {
+      height: 100%;
+      overflow: hidden;
+      display: flex;
+      flex-flow: column;
+      justify-content: space-between;
+    }
+
+    .main {
+      display: flex;
+      height: 75%;
+      justify-content: center;
+      align-items: center;
+      text-align: start;
+      flex-flow: row;
+      overflow-y: hidden;
+    }
+
+    .content {
+      height: 100%;
+      padding-right: 8px;
+      overflow-y: auto;
+    }
+
+    .sidebar {
+      height: 100%;
+      flex-grow: 1;
+      justify-content: flex-start;
+      align-items: stretch;
+      margin-top: 0px;
+      margin-left: 16px;
+      overflow-y: auto;
+    }
+  }

@@ -1,0 +1,52 @@
+/*
+  Style specific for a single post
+  */
+
+  html, body {
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+  }
+
+  .main {
+    height: 70%;
+    align-self: center;
+    display: flex;
+    flex-flow: column;
+    overflow-y: auto;
+  }
+
+  .main > .content {
+    height: auto;
+  }
+
+  .content > p:first-of-type::first-letter {
+    color: var(--accent);
+    font-family: serif;
+    font-weight: bold;
+  }
+
+  @media (min-width: 992px) {
+    .main {
+      display: flex;
+      height: 75%;
+      justify-content: center;
+      align-items: center;
+      text-align: start;
+      align-self: center;
+      flex-flow: row;
+    }
+
+    .main > .content {
+      height: 100%;
+    }
+
+    .sidebar {
+      position: sticky;
+      top: 0px;
+      height: 100%;
+      overflow-y: auto;
+    }
+  }

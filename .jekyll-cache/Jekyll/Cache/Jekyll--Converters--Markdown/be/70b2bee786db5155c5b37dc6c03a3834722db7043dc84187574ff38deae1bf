@@ -1,8 +1,0 @@
-I"ý<main class="content container ver-center h-100">
-  <section class="ver-center" style="overflow: hidden;">
-    <div class="container snap-x w-75 h-75 overflow-scroll">
-      <img class="img-fluid" src="/res/chart.png" />
-    </div>
-  </section>
-</main>
-:ET

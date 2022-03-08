@@ -1,0 +1,340 @@
+/*
+Theme Name: MMCSB First
+Theme URI: https://dfx81.github.io/mmcsb/
+Author: dfx
+Author URI: https://dfx-81.web.app
+Description: Theme designed for MMCSB website
+Version: 1.0
+*/
+
+:root {
+  --primary: #eee;
+  --secondary: #333;
+  --translucent: rgba(238, 238, 238, .8);
+  --accent: #008080;
+  --accent-translucent: rgba(255, 255, 255, .25);
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  margin: 0px;
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+
+a {
+  color: var(--accent);
+}
+
+.content {
+  text-align: start;
+}
+
+p {
+  text-align: justify;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+hr {
+  color: var(--secondary) !important;
+  background-color: var(--secondary) !important;
+  border: 1px solid var(--secondary);
+}
+
+.btn {
+  background-color: var(--accent);
+  color: var(--secondary);
+  opacity: .8;
+  transition: opacity .5s;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+/*.wp-block-buttons {
+  display: block !important;
+  width: 100%;
+  height: auto;
+}
+
+.wp-block-button {
+  opacity: .8;
+  transition: opacity .5s, background-color .5s;
+}
+
+.wp-block-button:hover {
+  opacity: 1;
+}
+
+.is-style-outline:hover {
+  background-color: var(--accent-translucent);
+}*/
+
+.header {
+  margin-bottom: 32px;
+}
+
+.main {
+  width: 100%;
+}
+
+.bar-color {
+  background-color: var(--translucent);
+}
+
+.nav-link {
+  color: var(--secondary) !important;
+  font-weight: bold;
+  opacity: .8;
+  transition: opacity .5s, color .5s;
+}
+
+.nav-link:hover {
+  opacity: 1;
+  color: var(--accent) !important;
+}
+
+.nav-link.active {
+  color: var(--accent) !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-brand {
+  color: var(--accent) !important;
+  font-weight: bold;
+}
+
+.list-group-item {
+  background-color: var(--accent-translucent) !important;
+  color: var(--secondary) !important;
+  opacity: .8;
+  transition: opacity .5s;
+}
+
+.list-group-item:hover {
+  opacity: 1;
+}
+
+.footer {
+  margin-top: 32px;
+  height: fit-content;
+  padding: 8px 0px;
+}
+
+.wp-block-social-links:not(.is-style-logos-only) * {
+  border-radius: 100%;
+  background-color: var(--accent);
+}
+
+.sidebar {
+  margin-top: 32px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: stretch;
+  justify-content: space-around;
+  background-color: var(--translucent);
+  color: var(--secondary);
+  border-radius: 4px;
+}
+
+.sidebar * {
+  padding: 4px;
+  margin: 2px 0px;
+  border-radius: 4px;
+  list-style-position: inside;
+}
+
+.widget-cont {
+  background-color: var(--accent-translucent);
+}
+
+.sidebar * li a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.dropdown-menu, .dropdown-item, .dropdown-item:hover {
+  background-color: var(--translucent);
+  color: var(--secondary);
+}
+
+.dropdown-menu {
+  padding: 4px;
+}
+
+.dropdown-item {
+  opacity: .8;
+  border-radius: 4px;
+  transition: opacity .5s, background-color .5s, color .5s;
+}
+
+.dropdown-item.active {
+  background-color: var(--accent);
+  color: var(--primary);
+  border-radius: 4px;
+}
+
+.dropdown-item:not(.active):hover {
+  opacity: 1;
+  background-color: var(--accent-translucent);
+  color: var(--accent);
+}
+
+.cover {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary);
+  z-index: 25;
+}
+
+.cover .logo {
+  width: 10em;
+  height: 10em;
+  opacity: .75;
+}
+
+.cover.logo img {
+  max-width: 100%;
+  height: auto;
+  object-fit: scale-down;
+}
+
+.fade {
+  pointer-events: none;
+  animation: 1s linear 1s fadeout;
+  animation-fill-mode: backwards;
+}
+
+.bg-effect {
+  top: 50%;
+  position: fixed;
+  height: auto;
+  width: 100vmax;
+  z-index: -1;
+  opacity: .5;
+}
+
+.footer-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socials > * {
+  margin: 0px auto;
+}
+
+.fade-on-view {
+  transform: translateY(50px);
+  opacity: 0;
+  transition: opacity 1s ease-in-out, transform 1s;
+}
+
+.fade-on-view.is-visible {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+#anim-a {
+  animation: 6s linear infinite animate;
+}
+
+#anim-b {
+  animation: 6s linear 2s infinite animate;
+}
+
+#anim-c {
+  animation: 6s linear 4s infinite animate;
+}
+
+@keyframes animate {
+  0% {
+    opacity: .5;
+  }
+
+  16.20% {
+    opacity: 0;
+  }
+
+  17.20% {
+    opacity: 0;
+  }
+
+  33.33% {
+    opacity: .5;
+  }
+}
+
+@keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .main {
+    justify-content: center;
+  }
+
+  .content {
+    min-width: 80ch;
+    text-align: start;
+  }
+
+  .content * {
+    max-width: 80ch;
+  }
+
+  .content > .wp-block-image * {
+    max-width: 100%;
+  }
+
+  .sidebar {
+    max-width: 25%;
+    min-width: 25%;
+    justify-content: flex-start;
+    align-items: stretch;
+    margin-top: 0px;
+    margin-left: 16px;
+  }
+
+  .bg-effect {
+    position: fixed;
+    width: 100vw;
+    height: auto;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary: #333;
+    --secondary: #eee;
+    --translucent: rgba(33, 33, 33, .8);
+    --accent: #008080;
+    --accent-translucent: rgba(0, 0, 0, .25);
+  }
+
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+}

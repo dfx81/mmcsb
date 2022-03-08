@@ -1,0 +1,32 @@
+/*
+  Style specific for a full height page
+  */
+
+  html, body {
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+  }
+
+  .main {
+    height: 70%;
+    align-self: center;
+    display: flex;
+  }
+
+  .main > .content {
+    height: 100%;
+    max-width: 80ch;
+    overflow-y: auto;
+  }
+
+  @media (min-width: 992px) {
+    .main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: start;
+    }
+  }
